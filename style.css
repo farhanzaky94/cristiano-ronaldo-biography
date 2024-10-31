@@ -1,7 +1,9 @@
-span{
-    color: red;
-    
+body {
+    background-color: white
+    (234, 245, 179);
 }
+
+
 p {
 
     font-family: 'Times New Roman', Times, serif;
@@ -12,14 +14,17 @@ p {
     margin-right: 200px;
     margin-left: 80px;
     background-color: goldenrod;
+    
 
   }
   img {
     display: block;
     margin: auto;
+
 }
 
 header {
     text-align: center;
 }
+
 
