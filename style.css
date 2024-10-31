@@ -1,0 +1,25 @@
+span{
+    color: red;
+    
+}
+p {
+
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h1 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 80px;
+    background-color: goldenrod;
+
+  }
+  img {
+    display: block;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
