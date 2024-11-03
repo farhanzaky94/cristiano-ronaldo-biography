@@ -1,5 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
-  background-color: #9a9a9a;
+  background-color: white;
 }
 
 p {
@@ -8,64 +11,53 @@ p {
 }
 h1 {
   margin: auto;
-  background-color: grey;
+  background-color: white;
+  font-family: copperplate;
+  font-size: 100px;
 }
 .early-life-box {
-  background-color: #f5f5dc;
+  background-color: white;
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
 }
 
 .honours-box {
-  background-color: #f5f5dc;
-  padding: 20px;
-  border-radius: 8px;
-  margin: 20px 0;
-}
-.sporting-box {
-  background-color: #f5f5dc;
-  padding: 20px;
-  border-radius: 8px;
-  margin: 20px 0;
-}
-.manchester-united-box {
-  background-color: #f5f5dc;
-  padding: 20px;
-  border-radius: 8px;
-  margin: 20px 0;
-}
-.real-madrid-box {
-  background-color: #f5f5dc;
+  background-color: #e0e0e0;
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
 }
 
-.juventus-box {
-  background-color: #f5f5dc;
-  padding: 20px;
-  border-radius: 8px;
-  margin: 20px 0;
-}
-
-.al-nassr-box {
-  background-color: #f5f5dc;
-  padding: 20px;
-  border-radius: 8px;
-  margin: 20px 0;
-}
 .careers-box {
-  background-color: #f5f5dc;
+  background-color: white;
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
+}
+.portrait-box {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+.contact-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+  margin: auto;
 }
 img {
   display: block;
   margin: auto;
 }
-
+.source-box {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
 header {
   text-align: center;
 }
@@ -77,10 +69,21 @@ nav ul {
   justify-content: center;
 }
 nav {
-  background-color: #f4f4f4;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
 nav ul li a {
   text-decoration: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #191919;
+}
+nav ul li a:hover {
+  border-bottom: 1px solid black;
+}
+.image-size {
+  width: 150px;
+  display: flex;
+  align-items: center;
 }
