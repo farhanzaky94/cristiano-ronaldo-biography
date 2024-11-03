@@ -72,7 +72,15 @@ header {
 nav ul {
   display: flex;
   list-style: none;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
 }
 nav {
   background-color: #f4f4f4;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #191919;
 }
