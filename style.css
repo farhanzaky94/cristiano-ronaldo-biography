@@ -57,3 +57,7 @@ img {
 header {
   text-align: center;
 }
+nav ul {
+  display: flex;
+  list-style: none;
+}
