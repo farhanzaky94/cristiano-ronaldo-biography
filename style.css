@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-color: #9a9a9a;
 }
 
 p {
@@ -11,39 +11,39 @@ h1 {
   background-color: grey;
 }
 .early-life-box {
-  background-color: #e0e0e0;
+  background-color: #f5f5dc;
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
 }
 
 .honours-box {
-  background-color: #e0e0e0;
+  background-color: #f5f5dc;
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
 }
 .sporting-box {
-  background-color: #e0e0e0;
+  background-color: #f5f5dc;
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
 }
 .manchester-united-box {
-  background-color: #e0e0e0;
+  background-color: #f5f5dc;
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
 }
 .real-madrid-box {
-  background-color: #e0e0e0;
+  background-color: #f5f5dc;
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
 }
 
 .juventus-box {
-  background-color: #e0e0e0;
+  background-color: #f5f5dc;
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
@@ -60,4 +60,7 @@ header {
 nav ul {
   display: flex;
   list-style: none;
+}
+nav {
+  background-color: #f4f4f4;
 }
